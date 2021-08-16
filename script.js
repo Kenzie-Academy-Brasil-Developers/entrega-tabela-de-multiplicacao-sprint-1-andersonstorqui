@@ -10,6 +10,6 @@ function tabelaMultiplicacao (n){
 }
     return x
 }
-
+console.table(tabelaMultiplicacao(5))
 tabelaMultiplicacao()
 console.table(tabelaMultiplicacao(5))
