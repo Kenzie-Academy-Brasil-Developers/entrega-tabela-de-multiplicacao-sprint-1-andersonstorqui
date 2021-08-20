@@ -8,8 +8,7 @@ function tabelaMultiplicacao (n){
             x[i][j] = i * j
         }
 }
-    return x
+    return console.table(x)
+
 }
-console.table(tabelaMultiplicacao(5))
-tabelaMultiplicacao()
-console.table(tabelaMultiplicacao(5))
+tabelaMultiplicacao(10)
